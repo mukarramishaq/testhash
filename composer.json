@@ -13,5 +13,7 @@
         "psr-4": {
             "Mukarramishaq\\TestHash\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "version": "1.0.0"
 }
