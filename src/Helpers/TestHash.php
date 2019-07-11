@@ -2,15 +2,16 @@
 
 namespace Mukarramishaq\TestHash\Helpers;
 
-class TestHash {
+class TestHash
+{
     /**
      * hash function creates a hash of given string in the parameters.
      * this function uses the modulo hashing algorithm (h(K) = K mod n) with a slight variance
      * @param [type] $str
      * @param integer $size [optional] hash length size by default it is 50
-     * @param string $characters [optional] characters string to which the hash key should be mapped. by default it is '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ' 
+     * @param string $characters [optional] characters string to which the hash key should be mapped. by default it is '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
      * @return string
-     * 
+     *
      * @static
      */
     public static function hash($str, $size = 50, $characters = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ')

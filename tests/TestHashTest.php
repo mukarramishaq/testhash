@@ -13,7 +13,8 @@ class TestHashTest extends TestCase
      *
      * @return array
      */
-    public function hashProvider(){
+    public function hashProvider()
+    {
         return array(
             array(
                 'dataSet' => array(
@@ -69,7 +70,7 @@ class TestHashTest extends TestCase
                     'hashedValue' => 'MRW16bglqvAFKPUZ49ejotyDINSX27chmrwBGLQV05afkpuzEJ',
                 ),
             ),
-            
+
         );
     }
     /**
@@ -77,7 +78,8 @@ class TestHashTest extends TestCase
      * @covers
      * @dataProvider hashProvider
      */
-    public function testHash($dataSet, $expectedResult){
+    public function testHash($dataSet, $expectedResult)
+    {
         if (empty($dataSet['params']['hashSize'])) {
             $this->assertEquals($expectedResult['hashedValue'], TestHash::hash($dataSet['params']['stringToBeHashed']));
         } else {
