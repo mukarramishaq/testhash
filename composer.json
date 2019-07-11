@@ -8,7 +8,9 @@
             "email": "mukarram.ishaq@rolustech.net"
         }
     ],
-    "require": {},
+    "require": {
+        "phpunit/phpunit": "7.5.x-dev"
+    },
     "autoload": {
         "psr-4": {
             "Mukarramishaq\\TestHash\\": "src/"
