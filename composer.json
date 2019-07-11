@@ -1,0 +1,17 @@
+{
+    "name": "mukarramishaq/testhash",
+    "description": "This package is for testing purpose only",
+    "type": "helper",
+    "authors": [
+        {
+            "name": "Mukarram Ishaq",
+            "email": "mukarram.ishaq@rolustech.net"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Mukarramishaq\\TestHash\\": "src/"
+        }
+    }
+}
