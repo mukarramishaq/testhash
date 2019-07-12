@@ -1,13 +1,22 @@
 <?php
+/**
+ * TestHash.php file contains TestHash class only under the 
+ * namespace Mukarramishaq\TestHash\Helpers
+ * @author Mukarram Ishaq <mukarramishaq189@gmail.com>
+ */
 
 namespace Mukarramishaq\TestHash\Helpers;
 
+/**
+ * TestHash class contains only static methods which are pure functions
+ * @author Mukarram Ishaq <mukarramishaq189@gmail.com>
+ */
 class TestHash
 {
     /**
      * hash function creates a hash of given string in the parameters.
      * this function uses the modulo hashing algorithm (h(K) = K mod n) with a slight variance
-     * @param [type] $str
+     * @param string $str
      * @param integer $size [optional] hash length size by default it is 50
      * @param string $characters [optional] characters string to which the hash key should be mapped. by default it is '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'
      * @return string
